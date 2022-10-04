@@ -1,6 +1,6 @@
 # InstantenousFlowTracker
 
-Sports stadiums' crowd monitoring via an automated system for detection of organized movements in human crowds
+###### Sports stadiums' crowd monitoring via an automated system for detection of organized movements in human crowds
 
 Analysis of unstructured high-density crowded scenes for video surveillance and crowd monitoring
 
