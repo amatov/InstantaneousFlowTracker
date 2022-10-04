@@ -17,8 +17,8 @@
 
 ###### Examples of papers where the InstantenousFlowTracker has been used:
 
-https://www.researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
+###### https://www.researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
-https://www.researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+###### https://www.researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-https://www.researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
+###### https://www.researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
