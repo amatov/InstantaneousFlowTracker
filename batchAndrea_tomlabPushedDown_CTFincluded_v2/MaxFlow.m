@@ -1,0 +1,35 @@
+%function [mxNbTr,anss] = MaxFlow(Prob,nbTri)
+function [mxNbTr] = MaxFlow(Prob,nbTri)
+
+Prob.QP.c = [-ones(nbTri,1) ; zeros(length(Prob.QP.c)-nbTri,1)]; % maximize (all cost of triplets to 1)
+
+Prob.b_L(1) = 0;
+Prob.b_U(1) = nbTri * 3;
+
+Prob.b_U(end) = 0;
+Prob.b_L(end) = -nbTri * 3;
+
+Prob.MIP.cpxControl.ITLIM = 30000000; %20000;
+
+Prob.MIP.IntVars = (1:nbTri)';%Prob.N;
+% Prob.MIP.IntVars = nbTri;%Prob.N;
+% Prob.MIP.IntVars = [];
+
+% Prob.CPLEX.LogFile = 'ilog.txt';
+% save Prob;
+
+% See if you can solve it as an LP problem by setting  before calling the solver.
+% 
+% Also, you may need to increase the iteration limit. It seems that it stops at 20,000. If not, find variable to increase this is:
+% 
+% Prob.MIP.cpxControl.ITLIM = 
+
+PROBLEM_GOES_INTO_TOMRUN = 1
+%keyboard;
+%Prob = cplexmilp(costVec', [],[],A,demaVec,[],[],[],zeros(nbArcs,1),capaVec',ctype);
+R = tomRun('cplex', Prob, [], 1);
+
+PROBLEM_IS_OUT_OF_TOMRUN = 1;
+
+mxNbTr = -fix(R.f_k); %used to be round - wrong
+anss = R.x_k;

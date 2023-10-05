@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications" name="batchAndrea_IncludingCTF" location="A:\Matlab\Cell Tracking\tft_editedVersion" file="A:\Matlab\Cell Tracking\tft_editedVersion\batchAndrea_IncludingCTF.prj" preferred-package-type="package.type.exe" build-checksum="1773528344" preferred-package-location="A:\Matlab\Cell Tracking\tft_editedVersion\batchAndrea_IncludingCTF\for_redistribution">
+    <param.appname>batchAndrea_IncludingCTF</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>This version has -C option.
+Automatically detected the required files.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.namespace>batchAndrea_IncludingCTF</param.namespace>
+    <param.guid />
+    <param.installpath.string>\batchAndrea_IncludingCTF\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\batchAndrea_IncludingCTF\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\batchAndrea_IncludingCTF\for_redistribution</param.output>
+    <param.embed.ctf>false</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.user.defined.mcr.options>-C</param.user.defined.mcr.options>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.mads.no.java>false</param.mads.no.java>
+    <param.mads.exclusive.mcr>false</param.mads.exclusive.mcr>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>batchAndrea_IncludingCTF</param.net.tsa.namespace>
+    <param.net.tsa.superclass />
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Users\Student Admin\Documents\MATLAB</param.net.tsa.metadata.assembly>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.namespace />
+      <param.guid />
+      <param.installpath.string />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.target.type />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.user.only.registration />
+      <param.mads.no.java />
+      <param.mads.exclusive.mcr />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\batchAndrea.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\andreaTest.m</file>
+      <file>${PROJECT_ROOT}\biObjectFlow.m</file>
+      <file>${PROJECT_ROOT}\buildGraph.m</file>
+      <file>${PROJECT_ROOT}\clusteringKmeans.m</file>
+      <file>${PROJECT_ROOT}\clusteringWrap.m</file>
+      <file>${PROJECT_ROOT}\coFun.m</file>
+      <file>${PROJECT_ROOT}\costaa.m</file>
+      <file>${PROJECT_ROOT}\countEntries.m</file>
+      <file>${PROJECT_ROOT}\createDistanceMatrix.m</file>
+      <file>${PROJECT_ROOT}\createDistanceMatrix.mexw64</file>
+      <file>${PROJECT_ROOT}\flowTracker.m</file>
+      <file>${PROJECT_ROOT}\Gauss2D.m</file>
+      <file>${PROJECT_ROOT}\MaxFlowCplexVersion.m</file>
+      <file>${PROJECT_ROOT}\MaxFlowMinCostCplexVersion.m</file>
+      <file>${PROJECT_ROOT}\normList.m</file>
+      <file>${PROJECT_ROOT}\tft.m</file>
+      <file>${PROJECT_ROOT}\vecFldInterpAnisoA.m</file>
+      <file>${PROJECT_ROOT}\vecFldInterpAnisoB.m</file>
+      <file>${PROJECT_ROOT}\vectorFieldPlot.m</file>
+      <file>${PROJECT_ROOT}\wrapAroundClustering.m</file>
+      <file>E:\ProgramFiles\IBM\ILOG\CPLEX_Studio1251\cplex\matlab\x64_win64\cplexmilp.m</file>
+      <file>E:\ProgramFiles\IBM\ILOG\CPLEX_Studio1251\cplex\matlab\x64_win64\cplexmilp.p</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file name="batchAndrea_IncludingCTF.exe" location="${PROJECT_ROOT}\batchAndrea_IncludingCTF\for_testing" optional="false">A:\Matlab\Cell Tracking\tft_editedVersion\batchAndrea_IncludingCTF\for_testing\batchAndrea_IncludingCTF.exe</file>
+      <file name="readme.txt" location="${PROJECT_ROOT}\batchAndrea_IncludingCTF\for_testing" optional="true">A:\Matlab\Cell Tracking\tft_editedVersion\batchAndrea_IncludingCTF\for_testing\readme.txt</file>
+      <file name="batchAndrea_IncludingCTF.ctf" location="${PROJECT_ROOT}\batchAndrea_IncludingCTF\for_testing" optional="false">A:\Matlab\Cell Tracking\tft_editedVersion\batchAndrea_IncludingCTF\for_testing\batchAndrea_IncludingCTF.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\ProgramFiles\MATLAB</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+      </toolboxes>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
+

@@ -1,4 +1,7 @@
-function [trackedLinks,flow]=andreaTest(inpDir,tifImagesDir,dist,mm,n,s,nbDir,rate,pixelS,name,RAK_ANGLE)
+function [trackedLinks,flow]=andreaTest_v2_readsFromFeat(inpDir,tifImagesDir,dist,mm,n,s,nbDir,rate,pixelS,name,RAK_ANGLE)
+
+%In version 2, program reads the feat.mat files instead of cand.mat
+%files
 
 % synopsis [trackedLinks,flow]=andreaTest(search radius, first frame, last frame)
 
@@ -29,47 +32,25 @@ for j = mm:n
     strg=sprintf('%%.%dd',s);
     indxStr=sprintf(strg,(j));
     %-------------------------------------------------------
-    load([inpDir,filesep,'cands',indxStr,'.mat']);
-    cands1=cands;
-    clear cands;
-    LL1=length(cands1);
-    cands1=cands1(find([cands1.status]==1));
-    L1=length(cands1);
+    load([inpDir,filesep,'feats',indxStr,'.mat']);
+    feats.pos = feats.pos(:,[2,1]);
+    frames1 = feats;
+    clear feats
+    %frames1.pos=[y1',x1'];
     %--------------------------------------------------------------------------
     indxStr2=sprintf(strg,j+1);
-    load([inpDir,filesep,'cands',indxStr2,'.mat']);
-    cands2=cands;
-    clear cands;
-    LL2=length(cands2);
-    cands2=cands2(find([cands2.status]==1));
-    L2=length(cands2);
+    load([inpDir,filesep,'feats',indxStr2,'.mat']);
+    feats.pos = feats.pos(:,[2,1]);
+    frames2=feats;
+    clear feats
     %--------------------------------------------------------------------------
     indxStr3=sprintf(strg,j+2);
-    load([inpDir,filesep,'cands',indxStr3,'.mat']);
-    cands3=cands;
-    clear cands;
-    LL3=length(cands3);
-    cands3=cands3(find([cands3.status]==1));
-    L3=length(cands3);
+    load([inpDir,filesep,'feats',indxStr3,'.mat']);
+    feats.pos = feats.pos(:,[2,1]);
+    frames3 = feats;
+    clear feats
     %-----------------------------------------------------------------------
-    for i=1:L1
-        y1(i) = cands1(i).Lmax(1);
-        x1(i) = cands1(i).Lmax(2);
-    end
-    frames1.pos=[y1',x1'];
-
-    for i=1:L2
-        y2(i) = cands2(i).Lmax(1);
-        x2(i) = cands2(i).Lmax(2);
-    end
-    frames2.pos=[y2',x2'];
-
-    for i=1:L3
-        y3(i) = cands3(i).Lmax(1);
-        x3(i) = cands3(i).Lmax(2);
-    end
-    frames3.pos=[y3',x3'];
-    %--------------------------------------------------------------------------
+    
     trackedLinks = [];                                    % flowTracker(I,J,K,dist,w1,w2,w3,nbDir,iterations,firstF,nbWindows);
 %     nbDir = 2; 
 %     RAK_ANGLE = [];
