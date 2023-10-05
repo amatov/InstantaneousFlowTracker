@@ -1,4 +1,4 @@
-function [bestk,bestpp,bestmu,bestcov,dl,countf] = mixtures4_circular_known_K( yIn, k )
+function [bestk,bestpp,bestmu,bestcov,dl,countf] = mixtures4_circular( yIn )
 %PREPROCESSDATA Summary of this function goes here
 %   Detailed explanation goes here
 yOut = yIn;
@@ -31,18 +31,7 @@ yIn = yIn - (cutDeg/180*pi);
 yIn(yIn<0) = yIn(yIn<0) + 2*pi;
 yIn = mod(yIn, 2*pi);
 
-options = statset('MaxIter',400,'UseParallel',true);
-gmdistributionObj = gmdistribution();
-obj = gmdistributionObj.fit(yIn, k, 'Start', 'randSample', 'Replicates', 30, 'SharedCov',false,'Options',options);
-
-bestmu = obj.mu';
-bestpp = obj.PComponents;
-bestk = k;
-bestcov = obj.Sigma;
-
-dl = [];
-countf = [];
-%[bestk,bestpp,bestmu,bestcov,dl,countf] = mixtures4(yIn',1,10,0,1e-6,0,[],[],1);
+[bestk,bestpp,bestmu,bestcov,dl,countf] = mixtures4(yIn',1,10,0,1e-3,0,[],[],1);
 
 bestmu = bestmu + (cutDeg/180*pi);
 bestmu = mod(bestmu, 2*pi);
