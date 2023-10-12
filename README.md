@@ -16,3 +16,7 @@
 ###### JCB 2010 https://www.researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
 
 ###### CVIU 2011 https://www.researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
+
+https://www.researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
+
+https://www.researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
