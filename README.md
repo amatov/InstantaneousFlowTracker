@@ -1,22 +1,19 @@
 ### **InstantaneousFlowTracker**
 
-###### Examples of published papers, since the summer of 2004, where the InstantenousFlowTracker was used:
+##### Presentations and biomedical applications on this approach are available here: https://researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
 
-###### CVPR 2005 https://www.researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+##### Presentations and real-world applications on this approach are available here: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
 
-###### JCB 2010 https://www.researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
+##### Examples of published papers, since the summer of 2004, where the InstantenousFlowTracker was used:
 
-###### CVIU 2011 https://www.researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
+##### CVPR 2005 https://www.researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-https://www.researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
+##### JCB 2010 https://www.researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
 
-https://www.researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
-
-
+##### CVIU 2011 https://www.researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
 
-
-#### Sports stadia' crowd monitoring via an automated system for detection of organized movements in human crowds
+### Sports stadia' crowd monitoring via an automated system for detection of organized movements in human crowds
 
 ###### Analysis of unstructured high-density crowded scenes for video surveillance and crowd monitoring
 
