@@ -1,5 +1,7 @@
 function [nbTri,nbArcs,capaVec,demaVec,A,F1,F2,F3]  = buildGraph(I,J,K,dist)
 
+% Alexandre Matov (2003)
+
 x1=  I(:,2);
 y1=  I(:,1);
 x2=  J(:,2);
