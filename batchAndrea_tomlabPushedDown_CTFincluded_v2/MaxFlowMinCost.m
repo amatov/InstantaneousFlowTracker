@@ -1,5 +1,7 @@
 function [X,listTri] = MaxFlowMinCost(Prob,flowApplied,nbTri)
 
+% Alexandre Matov (2003)
+
 Prob.b_L(1) = flowApplied * 3;
 Prob.b_U(1) = flowApplied * 3;
 
