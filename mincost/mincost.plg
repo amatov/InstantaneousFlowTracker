@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mincost - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\amatov\LOCALS~1\Temp\RSP3D5.tmp" with contents
+[
+/nologo /MTd /W4 /Gm /GX /ZI /Od /I "C:\Matlab\6.5\extern\include" /I "C:\Matlab\6.5\simulink\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IBMPC" /D "MSVC" /D "MSWIND" /D "__STDC__" /D "MATLAB_MEX_FILE" /D "NDEBUG" /Fp"Debug/mincost.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\matlab\FSM\track\flowThreeFrames\mincost\costFunctions.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\amatov\LOCALS~1\Temp\RSP3D5.tmp" 
+Creating temporary file "C:\DOCUME~1\amatov\LOCALS~1\Temp\RSP3D6.tmp" with contents
+[
+/nologo /MTd /w /W0 /Gm /GX /ZI /Od /I "C:\Matlab\6.5\extern\include" /I "C:\Matlab\6.5\simulink\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IBMPC" /D "MSVC" /D "MSWIND" /D "__STDC__" /D "MATLAB_MEX_FILE" /D "NDEBUG" /Fp"Debug/mincost.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\matlab\FSM\track\flowThreeFrames\mincost\goldberg.cpp"
+"H:\matlab\FSM\track\flowThreeFrames\mincost\main.cpp"
+"H:\matlab\FSM\track\flowThreeFrames\mincost\Tracker.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\amatov\LOCALS~1\Temp\RSP3D6.tmp" 
+Creating temporary file "C:\DOCUME~1\amatov\LOCALS~1\Temp\RSP3D7.tmp" with contents
+[
+libmx.lib libmex.lib libmatlb.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"mincost.pdb" /debug /machine:I386 /out:"mincost.dll" /implib:"mincost.lib" /pdbtype:sept /libpath:"C:\Matlab\6.5\extern\lib\win32\microsoft\msvc60" /export:"mexFunction" 
+.\Debug\costFunctions.obj
+.\Debug\goldberg.obj
+.\Debug\main.obj
+.\Debug\Tracker.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\amatov\LOCALS~1\Temp\RSP3D7.tmp"
+<h3>Output Window</h3>
+Compiling...
+costFunctions.cpp
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(13) : warning C4100: 'nmbParams' : unreferenced formal parameter
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(13) : warning C4100: 'Params' : unreferenced formal parameter
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(29) : warning C4189: 'pl' : local variable is initialized but not referenced
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'acosl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(310) : see declaration of 'acosl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'asinl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(312) : see declaration of 'asinl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'atanl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(314) : see declaration of 'atanl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'atan2l' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(316) : see declaration of 'atan2l'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'ceill' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(318) : see declaration of 'ceill'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'cosl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(320) : see declaration of 'cosl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'coshl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(322) : see declaration of 'coshl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'expl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(324) : see declaration of 'expl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'fabsl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(326) : see declaration of 'fabsl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'floorl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(328) : see declaration of 'floorl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'fmodl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(330) : see declaration of 'fmodl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'frexpl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(332) : see declaration of 'frexpl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'ldexpl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(334) : see declaration of 'ldexpl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'logl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(336) : see declaration of 'logl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'log10l' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(338) : see declaration of 'log10l'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'modfl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(340) : see declaration of 'modfl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'powl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(344) : see declaration of 'powl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'sinl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(346) : see declaration of 'sinl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'sinhl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(348) : see declaration of 'sinhl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'sqrtl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(350) : see declaration of 'sqrtl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'tanl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(352) : see declaration of 'tanl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'tanhl' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(354) : see declaration of 'tanhl'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'frexpf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(357) : see declaration of 'frexpf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'ldexpf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(359) : see declaration of 'ldexpf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'acosf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(362) : see declaration of 'acosf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'asinf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(364) : see declaration of 'asinf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'atanf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(366) : see declaration of 'atanf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'atan2f' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(368) : see declaration of 'atan2f'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'ceilf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(370) : see declaration of 'ceilf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'cosf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(372) : see declaration of 'cosf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'coshf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(374) : see declaration of 'coshf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'expf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(376) : see declaration of 'expf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'fabsf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(378) : see declaration of 'fabsf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'floorf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(380) : see declaration of 'floorf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'fmodf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(382) : see declaration of 'fmodf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'logf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(384) : see declaration of 'logf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'log10f' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(386) : see declaration of 'log10f'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'modff' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(388) : see declaration of 'modff'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'powf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(392) : see declaration of 'powf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'sinf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(394) : see declaration of 'sinf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'sinhf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(396) : see declaration of 'sinhf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'sqrtf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(398) : see declaration of 'sqrtf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'tanf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(400) : see declaration of 'tanf'
+h:\matlab\fsm\track\flowthreeframes\mincost\costfunctions.cpp(45) : warning C4514: 'tanhf' : unreferenced inline function has been removed
+        c:\program files\microsoft visual studio\vc98\include\math.h(402) : see declaration of 'tanhf'
+Compiling...
+goldberg.cpp
+main.cpp
+Tracker.cpp
+Linking...
+   Creating library mincost.lib and object mincost.exp
+
+
+
+<h3>Results</h3>
+mincost.dll - 0 error(s), 47 warning(s)
+</pre>
+</body>
+</html>

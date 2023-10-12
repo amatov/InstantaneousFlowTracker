@@ -1,0 +1,31 @@
+This is the output from running MATLAB Add-in.
+Please close this window after viewing it.
+--------------MCC/MEX BEGIN---------------
+/y /c mex.bat -k "H:\MATLAB\FSM\TRACK\FLOWTHREEFRAMES\mincost\mcc.mak" -no_setup -v  "H:\matlab\FSM\track\flowThreeFrames\mincost\Tracker.h" "H:\matlab\FSM\track\flowThreeFrames\mincost\Array.h" "H:\matlab\FSM\track\flowThreeFrames\mincost\costexe.cpp" "H:\matlab\FSM\track\flowThreeFrames\mincost\costFunctions.cpp" "H:\matlab\FSM\track\flowThreeFrames\mincost\costFunctions.h" "H:\matlab\FSM\track\flowThreeFrames\mincost\goldberg.cpp" "H:\matlab\FSM\track\flowThreeFrames\mincost\goldberg.h" "H:\matlab\FSM\track\flowThreeFrames\mincost\graphstruct.h" "H:\matlab\FSM\track\flowThreeFrames\mincost\main.cpp" "H:\matlab\FSM\track\flowThreeFrames\mincost\structs.h" "H:\matlab\FSM\track\flowThreeFrames\mincost\Tracker.cpp"
+ This is mex, Copyright 1984-2002 The MathWorks, Inc.
+
+-> Default options filename found in C:\Documents and Settings\amatov\Application Data\MathWorks\MATLAB\R13
+----------------------------------------------------------------
+->    Options file           = C:\Documents and Settings\amatov\Application Data\MathWorks\MATLAB\R13\mexopts.bat
+      MATLAB                 = C:\Matlab\6.5
+->    COMPILER               = cl
+->    Compiler flags:
+         COMPFLAGS           = -c -Zp8 -G5 -W3 -DMATLAB_MEX_FILE -nologo
+         OPTIMFLAGS          = /MD -O2 -Oy- -DNDEBUG
+         DEBUGFLAGS          = /MDd -Zi -Fd"Tracker.pdb"
+         arguments           = 
+         Name switch         = /Fo
+->    Pre-linking commands   = 
+->    LINKER                 = link
+->    Link directives:
+         LINKFLAGS           = /dll /export:mexFunction /MAP /LIBPATH:"C:\Matlab\6.5\extern\lib\win32\microsoft\msvc60" libmx.lib libmex.lib libmatlb.lib libmat.lib /implib:_lib9500.x
+         LINKFLAGSPOST       = 
+         Name directive      = /out:"Tracker.dll"
+         File link directive = 
+         Lib. link directive = 
+         Rsp file indicator  = @
+->    Resource Compiler      = rc /fo "mexversion.res"
+->    Resource Linker        = 
+----------------------------------------------------------------
+
+--------------MCC/MEX DONE----------------
