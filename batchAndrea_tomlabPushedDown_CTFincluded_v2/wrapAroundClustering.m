@@ -1,5 +1,7 @@
 function [outIndx,cluster_angles] = wrapAroundClustering(A)
 
+% Alexandre Matov (2003)
+
 % A - input vector of elements
 % As - sorted A
 % Ind - index list
