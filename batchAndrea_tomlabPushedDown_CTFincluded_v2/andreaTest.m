@@ -1,6 +1,7 @@
 function [trackedLinks,flow]=andreaTest(inpDir,tifImagesDir,dist,mm,n,s,nbDir,rate,pixelS,name,RAK_ANGLE)
 
 % synopsis [trackedLinks,flow]=andreaTest(search radius, first frame, last frame)
+% Alexandre Matov, PhD (2011)
 
 if nargin == 0 || isempty(dist)
     dist=6; % 20
