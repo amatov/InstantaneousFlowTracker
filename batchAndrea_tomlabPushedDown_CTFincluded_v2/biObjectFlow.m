@@ -1,5 +1,7 @@
 function REDU= biObjectFlow(costVec,nbTri,X)
 
+% Alexandre Matov (2003)
+
 n=find(costVec(1:nbTri)==0);
 costVec(n)=0.1711;
 
