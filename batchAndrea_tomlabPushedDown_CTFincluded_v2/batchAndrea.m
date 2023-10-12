@@ -1,5 +1,7 @@
 function batchAndrea
 
+% Alexandre Matov, PhD (2011)
+
 % [trackedLinks,flow]=andreaTest(dirName,dist,m,n,s,nbDir,rate,pixelS,name)
 
 % andreaTest('/mnt/alex10/AlexData/Andrea/Actin_01/tack/cands/',6,1,64,2);
