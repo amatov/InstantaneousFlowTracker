@@ -1,2 +1,2 @@
 ### Max-flow min-cost algorithm implementation
-### Code by Robert Sedgewick, Goldberg, Pascal Vallotton, and Alexandre Matov
+### Code by Robert Sedgewick, Andrew Goldberg, Pascal Vallotton, and Alexandre Matov
