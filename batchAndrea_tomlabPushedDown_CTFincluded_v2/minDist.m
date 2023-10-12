@@ -1,5 +1,7 @@
 function MinDist=minDist(frames1,frames2,frames3)
 
+% Alexandre Matov (2003)
+
 D1 = createDistanceMatrix([frames1(:,1:2)],[frames1(:,1:2)]);
 D1(find(D1==0))=1000;
 MeanMinDistF1 = mean(min(D1,[],2));
