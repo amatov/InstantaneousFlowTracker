@@ -1,6 +1,11 @@
 function [ feats ] = SiftDetector(debug, filePath, firstFrame, lastFrame, s,showOutput, PeakThre, EdgeThre )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+% VLFeat -- Vision Lab Features Library
+% The VLFeat open source library implements popular computer vision algorithms specialising in image understanding 
+% and local featurexs extraction and matching. Algorithms incldue Fisher Vector, VLAD, SIFT, MSER, k-means, 
+% hierarchical k-means, agglomerative information bottleneck, SLIC superpixes, quick shift superpixels, 
+% large scale SVM training, and many others. It is written in C for efficiency and compatibility, 
+% with interfaces in MATLAB for ease of use, and detailed documentation throughout.
+
 
 addpath('../VLfeat/vlfeat-0.9.14/toolbox/');
 vl_setup();
