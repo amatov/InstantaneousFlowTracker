@@ -1,5 +1,7 @@
 function [costAdd,w3,cluster_index,bestmu,flowMap,dir,nbDir] = clusteringKmeans(links,nbDir,ve,w3,singleTriplets)
 
+% Alexandre Matov (2003)
+
 % if nbDir == [], it means the EM algorithm is supposed to find number of
 % required directions (nbDir). If it is already a valid number, the
 % algorithm will assign each data to one gaussian.
