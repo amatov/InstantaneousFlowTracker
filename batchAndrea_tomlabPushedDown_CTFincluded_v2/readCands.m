@@ -1,5 +1,7 @@
 function [frame1,frame2,frame3]=readCands(i)
 
+% Alexandre Matov (2003)
+
 s = 2;
 strg=sprintf('%%.%dd',s);
 
