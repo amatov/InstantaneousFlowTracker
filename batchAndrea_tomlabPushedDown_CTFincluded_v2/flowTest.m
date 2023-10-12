@@ -1,6 +1,7 @@
 function [trackedLinks,flow]=flowTest(dirrName,dist,mm,n,s,nbDir,rate,pixelS,name,RAK_ANGLE)
 
- 
+% Alexandre Matov (2003)
+
 if nargin == 0 || isempty(dist)
     dist=6; % 20
     fprintf('default value of 6 for searching radius assumed')
