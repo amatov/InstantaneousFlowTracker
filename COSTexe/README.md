@@ -1,1 +1,1 @@
-### Visual C++ compilation to an executable of the Andrew Goldberg max-flow min-cost algorithm 
+### Implementation of the Andrew Goldberg max-flow min-cost algorithm, which I modified and compiled as an executable in Visual C++
