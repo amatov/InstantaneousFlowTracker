@@ -1,6 +1,8 @@
 %function [mxNbTr,anss] = MaxFlow(Prob,nbTri)
 function [mxNbTr] = MaxFlow(Prob,nbTri)
 
+% Alexandre Matov June 19th 2004
+
 Prob.QP.c = [-ones(nbTri,1) ; zeros(length(Prob.QP.c)-nbTri,1)]; % maximize (all cost of triplets to 1)
 
 Prob.b_L(1) = 0;
