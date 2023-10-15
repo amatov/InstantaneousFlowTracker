@@ -1,6 +1,6 @@
 function [costAdd,w3,cluster_index,gmm,flowMap,dir] = clusteringWrap(links,nbDir,ve,w3,singleTriplets,RAK_ANGLE)
 
-
+% Alexandre Matov June 19th 2004
 
 dy = [links(:,5)-links(:,1)];
 dx = [links(:,6)-links(:,2)];
