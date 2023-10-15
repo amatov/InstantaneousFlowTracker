@@ -1,5 +1,7 @@
 function [costV,angV,deltaDv] = coFun(I,J,K,F1,F2,F3,costFunction,w1,w2,w3)
 
+% Alexandre Matov June 19th 2004
+
 len = length(F1);
 for i=1:len
     x1=I(F1(i),2);
