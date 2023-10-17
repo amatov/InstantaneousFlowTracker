@@ -1,4 +1,4 @@
-### **InstantaneousFlowTracker**
+### **Instantaneous Flow Tracker**
 
 ##### Presentations and biomedical applications of this approach are available here: https://researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
 
