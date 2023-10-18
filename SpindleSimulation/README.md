@@ -1,2 +1,2 @@
 
-### Synthetic spindle code by Ge Yang, PhD
+### Synthetic spindle code by Ge Yang and Alexandre Matov
