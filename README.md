@@ -1,4 +1,4 @@
-### **Instantaneous Flow Tracker**
+### Instantaneous Flow Tracker
 
 ##### Presentations and biomedical applications of this approach are available here: https://researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
 
@@ -6,11 +6,11 @@
 
 ##### Examples of published papers, since the summer of 2004 (when I had completed all modules of the software), where the Instantaneous Flow Tracker was used:
 
-##### CVPR 2005 (see Figures 4-6) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+##### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-##### JCB 2010 (see Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
+##### Journal of Cell Biology (JCB) 2010 (see Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
 
-##### CVIU 2011 (see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
+##### Computer Vision and Image Understanding (CVIU) 2011 (see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
 ##### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
