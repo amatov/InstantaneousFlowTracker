@@ -26,8 +26,7 @@
 
 ##### Rationale: Video cameras monitoring the activity of people around sports venues are commonplace in cities worldwide. At sports games, where crowds of tens of thousands gather, such monitoring is important for safety and security purposes. It is also challenging to automate. Human operators are generally employed for the task, but even the most vigilant individuals may fail to see important information that could ultimately signal the onset of a potentially dangerous situation, such as the overcrowding of a sector of the stadium. 
 
-##### My research efforts have been focused on the development of a system that provide the security personnel on-the-fly with automatedly generated alert signal regarding rapid motion of groups of individuals or events of interest in crowded scenes. 
-
+##### My research efforts have been focused on the development of a system that provide the security personnel on-the-fly with automatedly generated alert signal regarding rapid motion of groups of individuals or events of interest in crowded scenes.
 ##### More specifically, the system would offer crowd density estimation and prediction of overcrowding in front of the gates and parking lots around the sports arenas, as well as within the stadium. 
 
 ##### Additionally, my system would be able to detect, in real-time, when small groups of fans are about to confront each other and **predict the place of clash prior to the actual confrontation** by calculating the speed and direction of motion of the opposing groups. 
