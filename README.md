@@ -4,7 +4,7 @@
 
 ##### Presentations and real-world applications of this approach are available here: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
 
-##### Examples of published papers, since the summer of 2004 (when I had completed the software), where the Instantaneous Flow Tracker was used:
+##### Examples of published papers, since the summer of 2004 (when I had completed all modules of the software), where the Instantaneous Flow Tracker was used:
 
 ##### CVPR 2005 (see Figures 4-6) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
