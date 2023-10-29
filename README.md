@@ -29,7 +29,7 @@
 #### My research efforts have been focused on the development of systems that provide the security personnel on-the-fly with automatedly generated alert signal regarding rapid motion of groups of individuals or events of interest in crowded scenes.
 #### More specifically, the system would offer crowd density estimation and prediction of overcrowding in front of the gates and parking lots around the sports arenas, as well as within the stadium. 
 
-#### Additionally, my system would be able to detect, in real time, when small groups of fans are about to confront each other and **predict the place of clash prior to the actual confrontation** by calculating the speed and direction of motion of the opposing groups. 
+#### Additionally, my system would be able to detect, in real time, when small groups of fans are about to confront each other and **predict the place of clash prior to the actual confrontation** by calculating the speed and direction of motion of the opposing groups based on three or four time frames. 
 
 ##### Significance: I apply computer vision methods to capture organized movement of groups of spectators in crowded scenes. Tracking in unstructured crowded scenes has gained momentum in computer vision for the surveillance of human or vehicle motion in vulnerable public areas such as stadia, airports, train stations or roads. My approach offers a high-speed solution allowing real-time tracking. Thus, it could be used to predict on-the-fly anomalous behaviors or congestions associated with a security alert outside or within a sports stadium, an airport terminal or with the arrival of a new train in a highly frequented station. 
 
