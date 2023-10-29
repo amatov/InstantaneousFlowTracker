@@ -11,7 +11,7 @@
 
 ##### Computer Vision and Image Understanding (CVIU) 2011 (see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
-##### "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" accepted at the 27-th Convention of Electrical and Electronics Engineers in Israel (IEEEI 2012)
+##### "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" accepted at the 27-th Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012
 
 #### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
