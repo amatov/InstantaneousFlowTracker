@@ -3,17 +3,17 @@
 
 ##### Presentations and surveillance applications of this approach are available here: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
 
-#### Examples of published papers, since the summer of 2004 (when I had completed all modules of the software and written the manuscript), where the Instantaneous Flow Tracker was used:
+### Examples of published papers, since the summer of 2004 (when I had completed all modules of the software and written the manuscript), where the Instantaneous Flow Tracker was used:
 
-##### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+#### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-##### Journal of Cell Biology (JCB) 2010 (see Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
+#### Journal of Cell Biology (JCB) 2010 (see Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
 
-##### Computer Vision and Image Understanding (CVIU) 2011 (see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
+#### Computer Vision and Image Understanding (CVIU) 2011 (see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
-##### "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov & Nino Marina, paper accepted at the 27th Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat)
+#### "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov & Nino Marina, paper accepted at the 27th Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat)
 
-#### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
+### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
 ##### Computer vision algorithms can extract information from videos of crowded scenes and automatically track groups of individuals undergoing organized motion which might represent anomalous behavior. Computational tools and applied mathematics are indispensable for automated image analysis of human crowds, where information about changes in pixel intensity is translated into particle tracks used to detect rapid changes in crowd dynamics. 
 
