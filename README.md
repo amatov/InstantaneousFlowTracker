@@ -17,7 +17,7 @@
 
 #### Computer Vision and Image Understanding (CVIU) 2011 (see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
-#### "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted at the 27th Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat, Paper #153)
+#### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted (Eilat, Paper #153)
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
