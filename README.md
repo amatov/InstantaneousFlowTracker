@@ -1,4 +1,4 @@
-### C++ and Matlab code I wrote for the software modules of the Instantaneous Flow Tracker Algorithm (IFTA)
+### C++ and Matlab code I wrote for the software modules of the Instantaneous Flow Tracking Algorithm (IFTA)
 #### Presentations and biomedical applications of this approach are available here (see above MatovTrackingFourOverlappedFlows.avi and the augmented reality cell metrics video): https://researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
 
 #### Presentations and surveillance applications of this approach are available here (see above the three videos of real-time vehicle tracking and road traffic analytics): https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
