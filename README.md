@@ -13,7 +13,7 @@
 
 #### Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figures 1B and 1C) https://researchgate.net/publication/23178266_Regional_variation_of_microtubule_flux_reveals_microtubule_organization_in_the_metaphase_meiotic_spindle
 
-#### Proceedings of the National Academy of Sciences of the United States of America (PNAS) 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Determination of monopole size by EB1 tracking") https://researchgate.net/publication/24028525_Spindle_Fusion_Requires_Dynein-Mediated_Sliding_of_Oppositely_Oriented_Microtubules
+#### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Determination of monopole size by EB1 tracking") https://researchgate.net/publication/24028525_Spindle_Fusion_Requires_Dynein-Mediated_Sliding_of_Oppositely_Oriented_Microtubules
 
 #### Journal of Cell Biology (JCB) 2010 (see Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
 
