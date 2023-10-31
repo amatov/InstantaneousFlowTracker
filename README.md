@@ -7,7 +7,9 @@
 
 #### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter - see "Speckle tracking and data analysis") https://researchgate.net/publication/7144976_Kinesin_5-independent_poleward_flux_of_kinetochore_microtubules_in_PtK1_cells
+#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Speckle tracking and data analysis") https://researchgate.net/publication/7144976_Kinesin_5-independent_poleward_flux_of_kinetochore_microtubules_in_PtK1_cells
+
+#### Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figure 1B) https://researchgate.net/publication/23178266_Regional_variation_of_microtubule_flux_reveals_microtubule_organization_in_the_metaphase_meiotic_spindle
 
 #### Journal of Cell Biology (JCB) 2010 (see Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division
 
