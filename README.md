@@ -6,7 +6,7 @@
 
 ### Examples of published papers, since the summer of 2004 (when I had completed all modules of the software and written the manuscript), where the Instantaneous Flow Tracker was used:
 
-#### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFT improves the success rate of a linear Kalman filter from 61.1% to 96% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+#### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improves the success rate of a linear Kalman filter from 61.1% to 96% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
 #### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Speckle tracking and data analysis") https://researchgate.net/publication/7144976_Kinesin_5-independent_poleward_flux_of_kinetochore_microtubules_in_PtK1_cells
 
