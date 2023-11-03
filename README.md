@@ -24,7 +24,7 @@
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
-##### Computer vision algorithms can extract information from videos of crowded scenes and automatically track groups of individuals undergoing organized motion which might represent anomalous behavior. Computational tools and applied mathematics are indispensable for automated image analysis of human crowds, where information about changes in pixel intensity is translated into particle tracks used to detect rapid changes in crowd dynamics. 
+##### Computer vision algorithms can extract information from videos of crowded scenes and automatically track groups of individuals undergoing organized motion, which might represent anomalous behavior. Computational tools and applied mathematics are indispensable for automated image analysis of human crowds, where information about changes in pixel intensity is translated into particle tracks used to detect rapid changes in crowd dynamics. 
 
 ##### I proposed to use the existing infrastructure of video cameras for collecting images and develop an innovative software system for parsing of significant events by analyzing image sequences taken inside and outside of sports stadia. 
 
