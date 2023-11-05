@@ -24,6 +24,8 @@
 
 #### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
 
+#### Please refer to the presentation MatovUEFA2014.pdf with input from the group of Mubarak Shah for additional technical information: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
+
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
 ##### Computer vision algorithms can extract information from videos of crowded scenes and automatically track groups of individuals undergoing organized motion, which might represent anomalous behavior. Computational tools and applied mathematics are indispensable for automated image analysis of human crowds, where information about changes in pixel intensity is translated into particle tracks used to detect rapid changes in crowd dynamics. 
@@ -46,5 +48,3 @@
 ##### This project would generate novel technology, which can be used to analyze live videos of conflict situations at different types of sports stadia, e.g., for association football (soccer), American football, and baseball. Furthermore, I envisage additional applications such as using the technology to detect dangerous behaviors at airports, train station, political rallies, mass demonstrations, music festivals, large chain stores, busy resorts, among a number of other important security applications. 
 
 ##### I would develop software applications for various platforms and devices, such as CCTV camera systems, smartphones (iOS/Android) as well as smart glasses (Vive/HoloLens). My technology can be made available as a software as a service (SaaS) through a web interface, where additional algorithmic modules for the analysis of live images with specific types of motion from live cameras or other imaging methods can be continuously added.
-
-#### For additional technical information, please refer to the presentation MatovUEFA2014.pdf with input from the group of Mubarak Shah here: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
