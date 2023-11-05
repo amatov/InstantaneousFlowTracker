@@ -24,7 +24,7 @@ function [links,flow,cluster_index,bestmu,flowMap,dir] = flowTrack(I,J,K,dist,w1
 %            flowMap: filtered links [y0 x0 y1 x1]
 %            dir  : 
 %
-% Alexandre Matov June 19th 2004
+% Alexandre Matov September 26th 2005
 
 aux = 0;
 links = [];li=[];singleTriplets=[];
