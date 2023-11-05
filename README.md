@@ -24,7 +24,7 @@
 
 #### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
 
-#### Please refer to the presentation MatovUEFA2014.pdf with input from the group of Mubarak Shah for additional technical information: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
+#### Please refer to presentation MatovUEFA2014.pdf, with input from the group of Mubarak Shah, for additional technical information: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
