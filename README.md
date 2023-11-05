@@ -22,7 +22,7 @@
 
 #### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted 
 
-#### I replaced the TOLMAB solver with ILOG CPLEX and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
+#### In 2013, I replaced the TOLMAB wrapper with a direct call to the ILOG CPLEX solver and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
