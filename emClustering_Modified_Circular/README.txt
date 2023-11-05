@@ -22,3 +22,5 @@ The second one, "demo2.m", uses the "Simulated Set 2" from the
 book by McLachlan and Peel, 2000, page 218. These demos call a
 function "genmix.m", which generates samples from a Gaussian
 mixture; this function is also included.
+
+The circular clustering was implemented by Shayan Modiri
