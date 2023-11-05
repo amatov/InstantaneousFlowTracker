@@ -1,6 +1,6 @@
 function [costAdd,w3,cluster_index,gmm,flowMap,dir] = clusteringWrap(links,nbDir,ve,w3,singleTriplets,RAK_ANGLE)
 
-% Alexandre Matov June 19th 2004
+% Alexandre Matov (2003)
 
 dy = [links(:,5)-links(:,1)];
 dx = [links(:,6)-links(:,2)];
@@ -15,7 +15,7 @@ angDiff = zeros(size(ang));
 
 if nbDir == 1
     cluster_index=ones(size(ang)); %NO CLASTERING APPLIED
-    bestmu = RAK_ANGLE ;
+    bestmu = RAK_ANGLE ;% default 1.53;
 else
     [cluster_index,bestmu] = wrapAroundClustering(ang);
 end
@@ -44,12 +44,12 @@ for i = 1:nbDir
     flowVecList(:,2) = flowVecList(:,2)*cos(bestmu(i));
     aux =[];
     %---------------------------------------EACH DIR
-    [aux,vecDir]=vecFldInterpAnisoB([fYf,fXf,fYtf,fXtf],[fYf,fXf],15,5,3); 
+    [aux,vecDir]=vecFldInterpAnisoB([fYf,fXf,fYtf,fXtf],[fYf,fXf],15,5,3); % DEAFAULT (40,10,3) or 15/5 for spindle5
 %     aux=vecFldInterpAnisoB([fYf,fXf,fYtf,fXtf],[fYf,fXf],40,10,3);
 
     h11=[fYf,fXf,fYf+aux(:,1),fXf+aux(:,2)];
     %-------------------------------------
-    [auxEachD,vecDirEachD]=vecFldInterpAnisoB([fYf,fXf,fYtf,fXtf],[fYtf,fXtf],15,5,3);
+    [auxEachD,vecDirEachD]=vecFldInterpAnisoB([fYf,fXf,fYtf,fXtf],[fYtf,fXtf],15,5,3);% DEAFAULT (40,10,3) or 15/5 for spindle5
 %     auxEachD = vecFldInterpAnisoB([fYf,fXf,fYtf,fXtf],[fYtf,fXtf],40,10,3);
     
     h11d=[fYtf,fXtf,fYtf+auxEachD(:,1),fXtf+auxEachD(:,2)];
@@ -111,4 +111,4 @@ end
 
 ang = acos(cosAngle);
 angSq = ang*ang;
-costAdd=w3*10000*angSq; 
+costAdd=w3*10000*angSq; % multiply by 100 to make it integer
