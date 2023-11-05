@@ -45,4 +45,4 @@
 
 ##### I would develop software applications for various platforms and devices, such as CCTV camera systems, smartphones (iOS/Android) as well as smart glasses (Vive/HoloLens). My technology can be made available as a software as a service (SaaS) through a web interface, where additional algorithmic modules for the analysis of live images with specific types of motion from live cameras or other imaging methods can be continuously added.
 
-
+### Please also refer to the presentation MatovUEFA2014.pdf here: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
