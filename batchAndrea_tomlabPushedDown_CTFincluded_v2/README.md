@@ -1,1 +1,1 @@
-### Matlab code for optimal-flow minimal-cost flow soluation was written by Alexandre Matov and Shayan Modiri
+### Matlab code to compute the optimal-flow minimal-cost flow was written by Alexandre Matov and Shayan Modiri
