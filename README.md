@@ -22,6 +22,8 @@
 
 #### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted 
 
+#### I replaced the TOLMAB solver with ILOG CPLEX and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
+
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
 ##### Computer vision algorithms can extract information from videos of crowded scenes and automatically track groups of individuals undergoing organized motion, which might represent anomalous behavior. Computational tools and applied mathematics are indispensable for automated image analysis of human crowds, where information about changes in pixel intensity is translated into particle tracks used to detect rapid changes in crowd dynamics. 
