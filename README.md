@@ -18,9 +18,9 @@
 
 #### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division "Directly probing the mechanical properties of the spindle and its matrix", see Podcast: https://youtube.com/watch?v=rF3mNr4l4XU
 
-#### Computer Vision and Image Understanding (CVIU) 2011 (the IFT algorithm paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
+#### Computer Vision and Image Understanding (CVIU) 2011 (the IFT algorithm paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker see my presentation of IFTA: https://youtube.com/watch?v=kTYyltX9RFg
 
-#### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted 
+#### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted
 
 #### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
 
