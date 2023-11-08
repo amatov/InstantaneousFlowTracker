@@ -49,5 +49,3 @@
 ##### This project would generate novel technology, which can be used to analyze live videos of conflict situations at different types of sports stadia, e.g., for association football (soccer), American football, and baseball. Furthermore, I envisage additional applications such as using the technology to detect dangerous behaviors at airports, train station, political rallies, mass demonstrations, music festivals, large chain stores, busy resorts, among a number of other important security applications. 
 
 ##### I would develop software applications for various platforms and devices, such as CCTV camera systems, smartphones (iOS/Android) as well as smart glasses (Vive/HoloLens). My technology can be made available as a software as a service (SaaS) through a web interface, where additional algorithmic modules for the analysis of live images with specific types of motion from live cameras or other imaging methods can be continuously added.
-
-##### https://youtube.com/watch?v=04clpd7h0b0
