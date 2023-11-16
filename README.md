@@ -38,7 +38,7 @@
 
 ##### My specific aims would be: 1. Design and implement software for automated human detection and use our existing image analysis algorithms for human tracking in crowded scenes. 2. Develop novel computer vision algorithms for classification of motion patterns and anomalous motion identification in video surveillance. 
 
-##### My existing optimal-cost algorithm has been improved to handle sparse datasets by optimizing the objective function and applying Markov Random Field. The feature selection is based on detectors such as SIFT, SURF, or ORB. To compute circular expectation maximization, the assignment uses a mixture of von Mises distributions. The weights of the Pareto optimality multi-objective function are based on Bayesian statistics, which makes the algorithm self-adaptive with rapid convergence within several iterations. 
+##### My existing optimal-cost algorithm has been improved by optimizing the objective function and applying Markov Random Field to sparse datasets. The feature selection is based on detectors such as SIFT, SURF, or ORB. To compute circular expectation maximization, the assignment uses a mixture of von Mises distributions. The weights of the Pareto optimality multi-objective function are based on Bayesian statistics, which makes the algorithm self-adaptive with rapid convergence within several iterations. 
 
 ##### An implementation with robotics computer vision libraries allows for real-time analysis on-the-fly. I aim at developing a system which can reliably analyze the behavior of up to 200,000 people and vehicles located inside and in the surroundings of a large stadium. My goal is to create a fully automated accident aversion system, which detects anomalous behaviors in real time as events are progressing. 
 
