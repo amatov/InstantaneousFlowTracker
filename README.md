@@ -10,13 +10,13 @@
 
 #### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
 
-#### Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Measurement of speckle intensity") https://researchgate.net/publication/5911709_Architectural_dynamics_of_the_meiotic_spindle_revealed_by_single-fluorophore_imaging
+#### Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
 
-#### Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figures 1B and 1C) https://researchgate.net/publication/23178266_Regional_variation_of_microtubule_flux_reveals_microtubule_organization_in_the_metaphase_meiotic_spindle
+#### Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figures 1B and 1C) https://rupress.org/jcb/article/182/4/631/45381/Regional-variation-of-microtubule-flux-reveals
 
-#### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Determination of monopole size by EB1 tracking") https://researchgate.net/publication/24028525_Spindle_Fusion_Requires_Dynein-Mediated_Sliding_of_Oppositely_Oriented_Microtubules
+#### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
 
-#### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) https://researchgate.net/publication/256437106_Instantaneous_Flow_Tracker_IFT_applied_to_analysis_of_cell_division "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtube.com/watch?v=rF3mNr4l4XU
+#### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtube.com/watch?v=rF3mNr4l4XU
 
 #### Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker 
 
@@ -28,7 +28,7 @@
 
 #### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
 
-#### Please refer to presentation MatovUEFA2014.pdf, with input from the group of Mubarak Shah, for additional technical information: https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
+#### Please refer to presentation MatovUEFA2014.pdf, with input from the group of Mubarak Shah, for additional technical information: http://dx.doi.org/10.13140/RG.2.2.26742.57922/2
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
