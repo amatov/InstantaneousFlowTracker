@@ -4,7 +4,7 @@
 
 #### Please also refer to (see above MatovFlowTrackingRotatingSpindle.avi):  http://dx.doi.org/10.13140/RG.2.2.36808.90886 (8 PDF files) 
 
-#### Presentations and surveillance applications of this approach are available here (see above the three videos of real-time vehicle tracking and road traffic analytics): http://dx.doi.org/10.13140/RG.2.2.34921.47204/2
+#### Presentations and surveillance applications of this approach are available here (see above the three videos of real-time vehicle tracking and road traffic analytics): http://dx.doi.org/10.13140/RG.2.2.34921.47204/2 (6 PDF files) 
 
 ### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, where the Instantaneous Flow Tracker was used:
 
