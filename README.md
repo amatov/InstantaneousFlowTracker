@@ -2,13 +2,13 @@
 #### Presentations and biomedical applications of this approach are available here (see above the effects of overexpressing tropomyosin 2 on the actin meshwork in MatovTrackingFourOverlappedFlows.avi and the augmented reality cell metrics video of tracking comets): https://researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011
 #### Please also refer to (see above MatovFlowTrackingRotatingSpindle.avi):  https://researchgate.net/publication/374166846_Optimal_Treatment_and_Dose_Selection_in_Receptor_Triple-Negative_Breast_Cancer_2012_-_2017
 
-#### Presentations and surveillance applications of this approach are available here (see above the three videos of real-time vehicle tracking and road traffic analytics): https://researchgate.net/publication/374166782_Analysis_of_Unstructured_High_Density_Crowded_Scenes_for_Video_Surveillance_and_Crowd_Monitoring_2011_-_2012
+#### Presentations and surveillance applications of this approach are available here (see above the three videos of real-time vehicle tracking and road traffic analytics): http://dx.doi.org/10.13140/RG.2.2.34921.47204/2
 
 ### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, where the Instantaneous Flow Tracker was used:
 
 #### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Speckle tracking and data analysis") https://researchgate.net/publication/7144976_Kinesin_5-independent_poleward_flux_of_kinetochore_microtubules_in_PtK1_cells
+#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
 
 #### Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Measurement of speckle intensity") https://researchgate.net/publication/5911709_Architectural_dynamics_of_the_meiotic_spindle_revealed_by_single-fluorophore_imaging
 
