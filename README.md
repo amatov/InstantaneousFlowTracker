@@ -22,7 +22,7 @@
 
 #### Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker 
 
-#### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted
+#### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 https://www.eng.tau.ac.il/~ieee/Convention2012/ (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted
 
 #### My presentation in 2013 at CRVC https://crcv.ucf.edu/ of the Instantaneous Flow Tracking Algorithm (IFTA) and its applications is available here: https://youtube.com/watch?v=kTYyltX9RFg
 
