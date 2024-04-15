@@ -8,15 +8,15 @@
 
 ### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, where the Instantaneous Flow Tracker was used:
 
-#### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+#### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96.0% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
+#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
 
-#### Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
+#### Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
 
 #### Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figures 1B and 1C) https://rupress.org/jcb/article/182/4/631/45381/Regional-variation-of-microtubule-flux-reveals
 
-#### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
+#### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
 
 #### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtube.com/watch?v=rF3mNr4l4XU
 
