@@ -2,7 +2,7 @@
 
 #### Presentations and surveillance applications of this approach are available here (see above the three videos of real-time vehicle tracking and road traffic analytics): http://dx.doi.org/10.13140/RG.2.2.26742.57922/2 (5 PDF files) 
 
-#### Presentations and biomedical applications of this approach are available here (see above the effects of overexpressing tropomyosin 2 on the actin meshwork in MatovTrackingFourOverlappedFlows.avi and the augmented reality cell metrics video of tracking comets): http://dx.doi.org/10.13140/RG.2.2.34921.47204/2 (6 PDF files) 
+#### Presentations and biomedical applications of this approach are available here (see above the effects of overexpressing tropomyosin 2 on the actin meshwork in MatovTrackingFourOverlappedFlows.avi and the augmented reality cell metrics video of tracking comets): https://www.researchgate.net/publication/374166035_Instantaneous_Flow_Analysis_of_Contractile_Cytoskeletal_Structures_Affected_by_the_Dysregulation_of_Kinesin_and_Tropomyosin_Motors_2010_-_2011 (6 PDF files) 
 
 #### Please also refer to (see above MatovFlowTrackingRotatingSpindle.avi):  http://dx.doi.org/10.13140/RG.2.2.36808.90886 (8 PDF files) 
 
