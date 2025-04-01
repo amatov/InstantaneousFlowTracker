@@ -30,8 +30,6 @@
 
 #### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
 
-#### Please refer to presentation MatovUEFA2014.pdf, with input from the group of Mubarak Shah, for additional technical information: http://www.sashca.com (5 PDF files) 
-
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
 ##### Computer vision algorithms can extract information from videos of crowded scenes and automatically track groups of individuals undergoing organized motion, which might represent anomalous behavior. Computational tools and applied mathematics are indispensable for automated image analysis of human crowds, where information about changes in pixel intensity is translated into particle tracks used to detect rapid changes in crowd dynamics. 
