@@ -28,7 +28,7 @@
 
 #### See videos of a similar product here: https://lnkd.in/gHxqxMXe (3 movie files) 
 
-#### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in folder batchAndrea_tomlabPushedDown_CTFincluded_v2
+#### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
 
 #### Please refer to presentation MatovUEFA2014.pdf, with input from the group of Mubarak Shah, for additional technical information: http://www.sashca.com (5 PDF files) 
 
