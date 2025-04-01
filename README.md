@@ -18,7 +18,7 @@
 
 #### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
 
-#### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtube.com/watch?v=rF3mNr4l4XU
+#### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtu.be/rF3mNr4l4XU?t=43
 
 #### Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker 
 
