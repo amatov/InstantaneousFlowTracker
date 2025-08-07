@@ -22,7 +22,7 @@
 
 #### See videos of a similar product here: https://lnkd.in/gHxqxMXe (4 movie files) 
 
-#### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
+#### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in: https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
