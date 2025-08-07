@@ -1,6 +1,6 @@
 ### C++ and Matlab code I wrote for the software modules of the Instantaneous Flow Tracking Algorithm (IFTA)
 
-### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, where the Instantaneous Flow Tracker was used:
+### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, in which the Instantaneous Flow Tracker was used:
 
 #### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96.0% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
