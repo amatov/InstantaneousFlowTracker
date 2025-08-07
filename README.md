@@ -2,29 +2,27 @@
 
 ### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, in which the IFTA was applied for data analysis:
 
-#### Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96.0% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
+#### 1) Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96.0% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-#### Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
+#### 2) Journal of Cell Biology (JCB) 2006 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
 
-#### Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
+#### 3) Nature Cell Biology (NCB) 2007 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
 
-#### Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figures 1B and 1C) https://rupress.org/jcb/article/182/4/631/45381/Regional-variation-of-microtubule-flux-reveals
+#### 4) Journal of Cell Biology (JCB) 2008 (to initialize the linear Kalman filter and compute the overlapped flows for tracking - see Figures 1B and 1C) https://rupress.org/jcb/article/182/4/631/45381/Regional-variation-of-microtubule-flux-reveals
 
-#### Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
+#### 5) Current Biology 2009 (to initialize the linear Kalman fiter and compute the overlapped flows for tracking - see section "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
 
-#### Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtu.be/rF3mNr4l4XU?t=43
+#### 6) Journal of Cell Biology (JCB) 2010 (see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtu.be/rF3mNr4l4XU?t=43
 
-#### Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker 
+#### 7) Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker 
 
-#### Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 https://www.academia.edu/61280387/2012_IEEE_27_th_Convention_of_Electrical_and_Electronics_Engineers_in_Israel (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted
+#### 8) Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 https://www.academia.edu/61280387/2012_IEEE_27_th_Convention_of_Electrical_and_Electronics_Engineers_in_Israel (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted
 
-#### My presentation in 2013 at CRVC https://crcv.ucf.edu of the Instantaneous Flow Tracking Algorithm (IFTA) and its applications is available here: https://youtube.com/watch?v=kTYyltX9RFg
+#### See my presentation in 2013 at CRVC https://crcv.ucf.edu of IFTA and its applications: https://youtube.com/watch?v=kTYyltX9RFg
 
 #### See videos of a similar product here: https://lnkd.in/gHxqxMXe (4 movie files) 
 
 #### In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
-
-### For detailed information, see: https://www.researchgate.net/publication/390301493_Analysis_of_Unstructured_High-Density_Crowded_Scenes_for_Crowd_Monitoring
 
 ### Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
@@ -49,3 +47,5 @@
 ##### This project would generate novel technology, which can be used to analyze live videos of conflict situations at different types of sports stadia, e.g., for association football (soccer), American football, and baseball. Furthermore, I envisage additional applications such as using the technology to detect dangerous behaviors at airports, train stations, political rallies, mass demonstrations, music festivals, large chain stores, busy resorts, among a number of other important security applications. 
 
 ##### I would develop software applications for various platforms and devices, such as CCTV camera systems, smartphones (iOS/Android) as well as smart glasses (Vive/HoloLens). My technology can be made available as a software as a service (SaaS) through a web interface, where additional algorithmic modules, including video-tagging of spectators, for the analysis of live images with specific types of motion from live cameras or other imaging methods can be continuously added.
+
+### For detailed information, see: https://www.researchgate.net/publication/390301493_Analysis_of_Unstructured_High-Density_Crowded_Scenes_for_Crowd_Monitoring
