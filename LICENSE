@@ -1,0 +1,65 @@
+Instantaneous Flow Tracker (IFTA) - License and Usage Notice
+==============================================================
+
+Copyright (c) Alexandre Matov. All rights reserved except as granted below.
+
+1. Scope
+--------
+This repository contains software written or co-written by Alexandre Matov
+for the Instantaneous Flow Tracking Algorithm (IFTA), together with several
+third-party components used for testing and comparison during development
+(see "Third-party components" below). Note also that the core proprietary
+optimization/tracking routines have been intentionally omitted from the
+publicly available source in this repository -- see the "Repository
+contents" section of README.md for details.
+
+2. Permitted use
+-----------------
+Permission is granted to use, copy, and modify the Alexandre Matov-authored
+code in this repository free of charge for research and educational
+purposes, provided that:
+
+  a) Any resulting publication, presentation, or derivative work cites the
+     relevant paper(s) listed in README.md;
+  b) This notice is retained in copies or substantial portions of the code.
+
+Commercial use, redistribution, or incorporation into a commercial product
+or service requires prior written permission from Alexandre Matov
+(alexandre.matov@gmail.com).
+
+3. No warranty
+---------------
+This software is provided "as is", without warranty of any kind, express
+or implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and noninfringement. In no event shall
+the author be liable for any claim, damages, or other liability arising
+from the use of this software.
+
+4. Third-party components
+--------------------------
+Several subdirectories bundle or adapt code by other authors, retained here
+for reference and comparison and NOT relicensed by the terms above. Each
+retains the license/attribution terms of its original author:
+
+  - MaxFlow/            Max-flow implementation by Vladimir Kolmogorov and
+                         Yuri Boykov. Historically distributed by the
+                         original authors for research/non-commercial use
+                         only, with a requirement to cite their papers.
+                         Contact the original authors regarding any other
+                         use.
+  - GoldbergMaxFlow/     Max-flow implementation by Andrew Goldberg,
+                         written by Ed Rothberg, distributed via DIMACS.
+                         See GoldbergMaxFlow/readme for the original terms.
+  - mincost/             Max-flow min-cost implementation based on
+  - mincostCPP/          Robert Sedgewick's published algorithm
+  - mincostDLL/           ("Algorithms in C++"), adapted by Pascal
+                         Vallotton and Alexandre Matov.
+  - COSTexe/             Compiled/adapted version of the above.
+  - emClustering_Modified_Circular/
+                         MATLAB implementation of the mixture-fitting
+                         algorithm of M. Figueiredo and A.K. Jain (IEEE
+                         2002), circular-clustering modification by
+                         Alexandre Matov and Shayan Modiri.
+
+If you are the rights holder of any third-party component listed above and
+would like different terms applied, please contact Alexandre Matov.

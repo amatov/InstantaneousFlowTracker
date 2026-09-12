@@ -1,5 +1,62 @@
 ### C++ and Matlab code I wrote for the software modules of the Instantaneous Flow Tracking Algorithm (IFTA)
 
+## Quick start
+
+1. **Requirements:** MATLAB with the Image Processing Toolbox, plus a
+   licensed installation of **IBM ILOG CPLEX** (or TOMLAB, for the older
+   code path) for the optimization step. See [ENVIRONMENT.md](ENVIRONMENT.md)
+   for details.
+2. **Which folder to use:** the working pipeline is
+   [`batchAndrea_tomlabPushedDown_CTFincluded_v2/`](batchAndrea_tomlabPushedDown_CTFincluded_v2/)
+   (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
+   `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are earlier
+   test/comparison solver implementations, kept for reference -- they are
+   not part of the working pipeline. See "Repository contents" below.
+3. **Try it:** run [`examples/run_demo.m`](examples/run_demo.m) in MATLAB.
+   It exercises the data-loading/plotting infrastructure against small
+   synthetic sample data in `examples/sample_data/`. **Read
+   [`examples/README.md`](examples/README.md) first** -- the core tracking
+   function is intentionally not included in this repository (see below),
+   so the demo verifies your setup, not the full algorithm.
+4. Reference figures showing real IFTA output are in
+   [`examples/figures/`](examples/figures/).
+
+## Repository contents
+
+- **Core scripts** (`flowTest.m`, `andreaTest.m`, `testFlowTracker.m`,
+  `batchAndrea.m`, and the files in
+  `batchAndrea_tomlabPushedDown_CTFincluded_v2/`) load particle-detection
+  data (`cands*.mat`), call the tracker, and visualize/save results.
+- **Proprietary core omitted:** every file whose name ends in `Trunc.m`
+  (e.g. `flowTrackerTrunc.m`, `flowTrackTrunc.m`, `tftTrunc.m`,
+  `buildGraphTrunc.m`, `MaxFlowMinCostTrunc.m`, `biObjectFlowTrunc.m`,
+  `costaTrunc.m`, `costaaTrunc.m`, `coFunTrunc.m`, and their `*1Trunc.m` /
+  `*CplexVersionTrunc.m` variants) contains only a function signature and
+  docstring -- the actual implementation has been intentionally omitted
+  from this public repository for proprietary reasons. This means the
+  scripts that call them (e.g. `flowTest.m` calling `flowTracker`) will
+  raise an "undefined function" error at that point when run as-is. This
+  is expected, not a bug.
+- **Alternative/test solver implementations:** `MaxFlow/`
+  (Kolmogorov-Boykov), `GoldbergMaxFlow/` (Goldberg, via Rothberg),
+  `mincost/` / `mincostCPP/` / `mincostDLL/` / `COSTexe/`
+  (Sedgewick-based, adapted by Pascal Vallotton and Alexandre Matov) were
+  all evaluated during development. The pipeline that was actually used
+  for published results switched from a **TOMLAB** wrapper to a direct
+  **IBM ILOG CPLEX** call in 2013 (see point 8 below); the other solver
+  folders are kept for reference/comparison only.
+- **`binaries/`** -- precompiled Windows binaries (`.dll`, `.exe`,
+  `.mexw64`, and MSVC build artifacts) for the C/C++ components, moved
+  here from their original source folders (mirroring the original layout)
+  to keep source directories readable. Nothing was deleted.
+- **`media/`** -- supplementary videos, images, and publication PDFs that
+  were previously in the repository root.
+- **`examples/`** -- synthetic sample input data and a demo script for
+  smoke-testing your setup, plus reference figures of real published
+  output. See [`examples/README.md`](examples/README.md).
+- **License:** see [LICENSE](LICENSE) -- research/educational use, with
+  separate terms noted for bundled third-party components.
+
 ### Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, in which the IFTA was applied for data analysis:
 
 #### 1) Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96.0% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
