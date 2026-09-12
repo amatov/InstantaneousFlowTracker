@@ -89,7 +89,7 @@ Computer vision algorithms can extract information from videos of crowded scenes
 
 I proposed to use the existing infrastructure of video cameras for collecting images and develop an innovative software system for parsing of significant events by analyzing image sequences taken inside and outside of sports stadia. 
 
-My specific aims would be: 1. Design and implement software for automated human detection and use our existing image analysis algorithms for human tracking in crowded scenes. 2. Develop novel computer vision algorithms for classification of motion patterns and anomalous motion identification in video surveillance. 
+**My specific aims would be:** 1. Design and implement software for automated human detection and use our existing image analysis algorithms for human tracking in crowded scenes. 2. Develop novel computer vision algorithms for classification of motion patterns and anomalous motion identification in video surveillance. 
 
 My existing optimal-cost algorithm has been improved by optimizing the objective function and applying Markov Random Field to sparse datasets. The feature selection is based on detectors such as SIFT, SURF, or ORB. To compute circular expectation maximization, the assignment uses a mixture of von Mises distributions. The weights of the Pareto optimality multi-objective function are based on Bayesian statistics, which makes the algorithm self-adaptive with rapid convergence within several iterations. 
 
