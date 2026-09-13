@@ -23,10 +23,6 @@
 
 ## Repository contents
 
-- **Core scripts** (`flowTest.m`, `andreaTest.m`, `testFlowTracker.m`,
-  `batchAndrea.m`, and the files in
-  `batchAndrea_tomlabPushedDown_CTFincluded_v2/`) load particle-detection
-  data (`cands*.mat`), call the tracker, and visualize/save results.
 - **Proprietary core omitted:** every file whose name ends in `Trunc.m`
   (e.g. `flowTrackerTrunc.m`, `flowTrackTrunc.m`, `tftTrunc.m`,
   `buildGraphTrunc.m`, `MaxFlowMinCostTrunc.m`, `biObjectFlowTrunc.m`,
