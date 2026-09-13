@@ -1,4 +1,6 @@
-### C++ and Matlab code I wrote for the software modules of the Instantaneous Flow Tracking Algorithm (IFTA)
+### IFTA
+
+The code I wrote for the software modules of the Instantaneous Flow Tracking Algorithm (IFTA) is in C++ and Matlab.
 
 ## Quick start
 
