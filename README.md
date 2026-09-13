@@ -53,29 +53,31 @@
 
 ## About
 
-Examples of published papers, since the summer of 2004, when I had completed all modules of the software and written the manuscript, in which the IFTA was applied for data analysis:
+Published papers in which the IFTA was applied for data analysis, starting in the summer of 2004 when I completed all software modules and wrote the manuscript:
 
 1) Computer Vision and Pattern Recognition (CVPR) 2005 (see Figures 4-6 and Table 1 - IFTA improved the success rate of a linear Kalman filter from 61.1% to 96.0% in four iterations) https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging
 
-2) Journal of Cell Biology (JCB) 2006 (IFTA initialized the linear Kalman fiter and computed the overlapped flows for tracking - see section "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
+2) Journal of Cell Biology (JCB) 2006 (IFTA initialized the linear Kalman filter and computed the overlapped flows for tracking - see section "Speckle tracking and data analysis") https://rupress.org/jcb/article/173/2/173/44281/Kinesin-5-independent-poleward-flux-of-kinetochore
 
-3) Nature Cell Biology (NCB) 2007 (IFTA initialized the linear Kalman fiter and computed the overlapped flows for tracking - see section "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
+3) Nature Cell Biology (NCB) 2007 (IFTA initialized the linear Kalman filter and computed the overlapped flows for tracking - see section "Measurement of speckle intensity") https://www.nature.com/articles/ncb1643
 
 4) Journal of Cell Biology (JCB) 2008 (IFTA initialized the linear Kalman filter and computed the overlapped flows for tracking - see Figures 1B and 1C) https://rupress.org/jcb/article/182/4/631/45381/Regional-variation-of-microtubule-flux-reveals
 
-5) Current Biology 2009 (IFTA initialized the linear Kalman fiter and computed the overlapped flows for tracking - see section "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
+5) Current Biology 2009 (IFTA initialized the linear Kalman filter and computed the overlapped flows for tracking - see section "Determination of monopole size by EB1 tracking") https://www.cell.com/current-biology/fulltext/S0960-9822(09)00627-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982209006277%3Fshowall%3Dtrue
 
-6) Journal of Cell Biology (JCB) 2010 (IFTA computed spindle flows in rotating spindles; see mitotic spindle flows tracking on Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtu.be/rF3mNr4l4XU?t=43
+6) Journal of Cell Biology (JCB) 2010 (IFTA computed spindle flows in rotating spindles; see mitotic spindle flow tracking in Figure S1) http://dx.doi.org/10.13140/RG.2.2.17118.41283 "Directly probing the mechanical properties of the spindle and its matrix", see a 6-min Podcast: https://youtu.be/rF3mNr4l4XU?t=43
 
-7) Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker 
+7) Computer Vision and Image Understanding (CVIU) 2011 (the IFTA methodology paper - see Figures 1-5) https://researchgate.net/publication/51458935_Optimal-flow_minimum-cost_correspondence_assignment_in_particle_flow_tracking_Instantaneous_Flow_Tracker
 
-8) Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (IFTA applications to crowd monitoring and surveillance) https://www.academia.edu/61280387/2012_IEEE_27_th_Convention_of_Electrical_and_Electronics_Engineers_in_Israel (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina, accepted
+8) Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (IFTA applications to crowd monitoring and surveillance) https://www.academia.edu/61280387/2012_IEEE_27_th_Convention_of_Electrical_and_Electronics_Engineers_in_Israel (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina (accepted paper)
 
-See my presentation in 2013 at CRVC https://crcv.ucf.edu of IFTA and its applications: https://youtube.com/watch?v=kTYyltX9RFg
+See my 2013 presentation on IFTA and its applications at CRCV: https://crcv.ucf.edu
 
-See videos of a similar product here: https://lnkd.in/gHxqxMXe (4 movie files) 
+Watch a recording of the talk on YouTube: https://youtube.com/watch?v=kTYyltX9RFg
 
-In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available in: https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
+See videos of a similar product here: https://lnkd.in/gHxqxMXe (4 movie files)
+
+In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available at: https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
 
 ## Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 
