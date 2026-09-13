@@ -7,7 +7,7 @@
    code path) for the optimization step. See [ENVIRONMENT.md](ENVIRONMENT.md)
    for details.
 2. **Which folder to use:** the working pipeline is
-   [`batchAndrea_tomlabPushedDown_CTFincluded_v2/`](batchAndrea_tomlabPushedDown_CTFincluded_v2/)
+   [`IFTA_CPLEX/`](IFTA_CPLEX/)
    (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
    `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are earlier
    test/comparison solver implementations, kept for reference -- they are
@@ -75,7 +75,7 @@ See my presentation in 2013 at [CRCV](https://crcv.ucf.edu) of IFTA and its appl
 
 See videos of a similar product here: https://lnkd.in/gHxqxMXe (4 movie files)
 
-In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available at: https://github.com/amatov/InstantaneousFlowTracker/tree/main/batchAndrea_tomlabPushedDown_CTFincluded_v2
+In 2013, I replaced the TOMLAB Optimization wrapper with a direct call to the ILOG CPLEX solver, and this code is available at: https://github.com/amatov/InstantaneousFlowTracker/tree/main/IFTA_CPLEX
 
 ## Analysis of Unstructured High-Density Crowded Scenes for Video Surveillance and Crowd Monitoring
 

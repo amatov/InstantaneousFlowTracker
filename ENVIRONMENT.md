@@ -23,7 +23,7 @@ problem and depends on **one** of the following commercial solvers, each
 requiring its own paid license:
 
 - **IBM ILOG CPLEX** -- used by the current/final version of the pipeline,
-  in `batchAndrea_tomlabPushedDown_CTFincluded_v2/` (the "Cplex" functions,
+  in `IFTA_CPLEX/` (the "Cplex" functions,
   e.g. `MaxFlowCplexVersionTrunc.m`, `MaxFlowMinCostCplexVersionTrunc.m`).
   This replaced the TOMLAB wrapper in 2013.
 - **TOMLAB** -- used by the earlier version of the pipeline. TOMLAB itself
