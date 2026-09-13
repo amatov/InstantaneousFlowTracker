@@ -108,3 +108,5 @@ This project would generate novel technology, which can be used to analyze live 
 I would develop software applications for various platforms and devices, such as CCTV camera systems, smartphones (iOS/Android) as well as smart glasses (Vive/HoloLens). My technology can be made available as a software as a service (SaaS) through a web interface, where additional algorithmic modules, including video-tagging of spectators, for the analysis of live images with specific types of motion from live cameras or other imaging methods can be continuously added.
 
 For detailed information, see: https://www.researchgate.net/publication/390301493_Analysis_of_Unstructured_High-Density_Crowded_Scenes_for_Crowd_Monitoring
+
+See also: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1681065/full
