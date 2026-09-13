@@ -105,4 +105,4 @@ I would develop software applications for various platforms and devices, such as
 
 For detailed information, see: https://www.researchgate.net/publication/390301493_Analysis_of_Unstructured_High-Density_Crowded_Scenes_for_Crowd_Monitoring
 
-See also: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1681065/full
+See also: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1681065
