@@ -71,7 +71,7 @@ Published papers in which the IFTA was applied for data analysis, starting in th
 
 8) Convention of Electrical and Electronics Engineers in Israel (IEEEI) 2012 (IFTA applications to crowd monitoring and surveillance) https://www.academia.edu/61280387/2012_IEEE_27_th_Convention_of_Electrical_and_Electronics_Engineers_in_Israel (Eilat, Paper #153) "Analysis of Unstructured Crowded Scenes: Instantaneous Flow Tracking Algorithm Applied to Surveillance" Alex Matov and Nino Marina (accepted paper)
 
-See my presentation in 2013 at CRCV https://crcv.ucf.edu of IFTA and its applications: https://youtube.com/watch?v=kTYyltX9RFg
+See my presentation in 2013 at [CRCV](https://crcv.ucf.edu) of IFTA and its applications: https://youtube.com/watch?v=kTYyltX9RFg
 
 See videos of a similar product here: https://lnkd.in/gHxqxMXe (4 movie files)
 
