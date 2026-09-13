@@ -14,7 +14,7 @@ needing their own dataset.
 
 ## `run_demo.m` -- what it actually verifies
 
-Run `run_demo.m` from MATLAB after adding the repository root to your
+Run `run_demo.m` from Matlab after adding the repository root to your
 path. It calls `testFlowTracker()` with the sample data above.
 
 **Read this before you run it:** the core tracking/optimization function
@@ -26,7 +26,7 @@ every file in this repo ending in `Trunc.m`.
 
 That means `run_demo.m` cannot produce a real tracked-flow result as-is.
 What it *does* verify is that:
-- your MATLAB installation can load this repository's `.m` files without
+- your Matlab installation can load this repository's `.m` files without
   syntax errors,
 - the Image Processing Toolbox functions used here (`imread`, etc.) are
   available,

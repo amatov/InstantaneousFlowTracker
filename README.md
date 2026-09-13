@@ -4,7 +4,7 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
 
 ## Quick start
 
-1. **Requirements:** MATLAB with the Image Processing Toolbox, plus a
+1. **Requirements:** Matlab with the Image Processing Toolbox, plus a
    licensed installation of **IBM ILOG CPLEX** (or TOMLAB, for the older
    code path) for the optimization step. See [ENVIRONMENT.md](ENVIRONMENT.md)
    for details.
@@ -14,7 +14,7 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
    `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are earlier
    test/comparison solver implementations, kept for reference -- they are
    not part of the working pipeline. See "Repository contents" below.
-3. **Try it:** run [`examples/run_demo.m`](examples/run_demo.m) in MATLAB.
+3. **Try it:** run [`examples/run_demo.m`](examples/run_demo.m) in Matlab.
    It exercises the data-loading/plotting infrastructure against small
    synthetic sample data in `examples/sample_data/`. **Read
    [`examples/README.md`](examples/README.md) first** -- the core tracking
