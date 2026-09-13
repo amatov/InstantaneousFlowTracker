@@ -45,7 +45,7 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
   folders are kept for reference/comparison only.
 - **`binaries/`** -- precompiled Windows binaries (`.dll`, `.exe`,
   `.mexw64`, and MSVC build artifacts) for the C/C++ components.
-- **`media/`** -- supplementary videos, images, and publication PDFs that
+- **[`media/`](media/)** -- supplementary videos, images, and publication PDFs that
   were previously in the repository root.
 - **`examples/`** -- synthetic sample input data and a demo script for
   smoke-testing your setup, plus reference figures of real published
