@@ -47,10 +47,16 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
   (Kolmogorov-Boykov), `GoldbergMaxFlow/` (Goldberg, via Rothberg),
   `mincost/` / `mincostCPP/` / `mincostDLL/` / `COSTexe/`
   (Sedgewick-based, adapted by Pascal Vallotton and Alexandre Matov) were
-  all evaluated during development. The pipeline that was actually used
-  for published results switched from a **TOMLAB** wrapper to a direct
-  **IBM ILOG CPLEX** call in 2013 (see point 8 below); the other solver
-  folders are kept for reference/comparison only.
+  all evaluated during development. In 2004, I formulated the
+  triplet-selection as a flow relaxation of the underlying combinatorial
+  problem (source to triplet to speckle to sink), solved for maximum
+  flow and, via Pareto/bi-objective optimality, minimum cost at that
+  flow -- optimal flow, minimum cost. What makes this exact rather than
+  fractional is the MIP solution, enforcing integer arc values;
+  conversely, `MaxFlow/`, `GoldbergMaxFlow/`, and the `mincost` family
+  solve only the continuous relaxation, which splits the triplets. The
+  pipeline switched from a **TOMLAB** wrapper to a direct
+  **IBM ILOG CPLEX** call in 2013.
 - **`binaries/`** -- precompiled Windows binaries (`.dll`, `.exe`,
   `.mexw64`, and MSVC build artifacts) for the C/C++ components.
 - **[`media/`](media/)** -- supplementary videos, images, and publication PDFs that
