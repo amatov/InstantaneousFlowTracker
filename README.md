@@ -6,9 +6,8 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
 
 1. **Requirements:** Matlab with the Image Processing Toolbox, plus a
    licensed installation of **IBM ILOG CPLEX** for the optimization step --
-   called directly in the current pipeline, or through TOMLAB (a Matlab
-   wrapper around CPLEX, not a separate solver) for the older code path.
-   See [ENVIRONMENT.md](ENVIRONMENT.md) for details.
+   called directly in the current pipeline, or through TOMLAB. See
+   [ENVIRONMENT.md](ENVIRONMENT.md) for details.
 2. **Which folder to use:** the working pipeline is
    [`IFTA_CPLEX/`](IFTA_CPLEX/)
    (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
