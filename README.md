@@ -13,7 +13,7 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
    (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
    `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are max-flow /
    min-cost-flow solvers, evaluated during development but not usable for
-   triplet-selection. Linking two frames is ordinary bipartite matching,
+   triplet-selection. Linking two frames is bipartite matching,
    which max-flow solves exactly. Linking three frames at once makes it a
    3-dimensional matching problem, one of Karp's original NP-complete
    problems: its LP relaxation is not integral, so a flow solver settles on
