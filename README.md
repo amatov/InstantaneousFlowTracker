@@ -11,9 +11,17 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
 2. **Which folder to use:** the working pipeline is
    [`IFTA_CPLEX/`](IFTA_CPLEX/)
    (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
-   `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are earlier
-   test/comparison solver implementations, kept for reference -- they are
-   not part of the working pipeline. See "Repository contents" below.
+   `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are max-flow /
+   min-cost-flow solvers, evaluated during development but not usable for
+   triplet-selection. Linking two frames is ordinary bipartite matching,
+   which max-flow solves exactly. Linking three frames at once makes it a
+   3-dimensional matching problem, one of Karp's original NP-complete
+   problems: its LP relaxation is not integral, so a flow solver settles on
+   a fractional solution that splits triplets across conflicting
+   candidates. Conversely, an MIP solver (CPLEX by ILOG/IBM) can enforce
+   the integer solution required. These solvers are kept for reference;
+   they solve an easier problem than the one my approach requires. See
+   "Repository contents" below.
 3. **Try it:** run [`examples/run_demo.m`](examples/run_demo.m) in Matlab.
    It exercises the data-loading/plotting infrastructure against small
    synthetic sample data in `examples/sample_data/`. **Read
