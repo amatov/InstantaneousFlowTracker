@@ -25,15 +25,7 @@ instead of the integer, all-or-nothing triplet selection this step needs.
 Conversely, an MIP solver (IBM ILOG CPLEX) can enforce that integer
 solution. Every version of the pipeline depends on CPLEX for this --
 either called directly, or reached through TOMLAB, a Matlab wrapper
-that itself calls CPLEX rather than being a separate solver. You need
-a paid license either way:
-
-- **IBM ILOG CPLEX**, called directly -- used by the current/final
-  version of the pipeline, in `IFTA_CPLEX/` (the "Cplex" functions,
-  e.g. `MaxFlowCplexVersionTrunc.m`, `MaxFlowMinCostCplexVersionTrunc.m`).
-  This replaced the TOMLAB wrapper in 2013.
-- **IBM ILOG CPLEX via TOMLAB** -- how the earlier version of the
-  pipeline reached it, through TOMLAB's own Matlab interface.
+that itself calls CPLEX rather than being a separate solver.
 
 Neither CPLEX nor TOMLAB is included in this repository; you must install
 and license one yourself and make sure its Matlab interface is on your
