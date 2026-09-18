@@ -51,8 +51,3 @@ files (`.mexw64`, `.mexglx`). The precompiled MEX binaries under
 Linux/Matlab combination); on a modern platform you will need to recompile
 the corresponding `.c`/`.cpp` source with `mex` yourself.
 
-## What's NOT required
-
-`SIFT_Detector/`, `SpindleSimulation/`, and
-`emClustering_Modified_Circular/` are self-contained Matlab code with no
-external solver dependency.
