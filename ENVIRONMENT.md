@@ -22,16 +22,18 @@ The three-frame triplet-selection step is a 3-dimensional matching
 problem, which is NP-hard, not a min-cost flow problem: its LP relaxation
 is not integral, so a flow solver settles on a fractional solution
 instead of the integer, all-or-nothing triplet selection this step needs.
-Conversely, an MIP solver (CPLEX by ILOG/IBM, or TOMLAB) can enforce that
-integer solution. The pipeline depends on **one** of the following
-commercial solvers, each requiring its own paid license:
+Conversely, an MIP solver (IBM ILOG CPLEX) can enforce that integer
+solution. Every version of the pipeline depends on CPLEX for this --
+either called directly, or reached through TOMLAB, a Matlab wrapper
+that itself calls CPLEX rather than being a separate solver. You need
+a paid license either way:
 
-- **IBM ILOG CPLEX** -- used by the current/final version of the pipeline,
-  in `IFTA_CPLEX/` (the "Cplex" functions,
+- **IBM ILOG CPLEX**, called directly -- used by the current/final
+  version of the pipeline, in `IFTA_CPLEX/` (the "Cplex" functions,
   e.g. `MaxFlowCplexVersionTrunc.m`, `MaxFlowMinCostCplexVersionTrunc.m`).
   This replaced the TOMLAB wrapper in 2013.
-- **TOMLAB** -- used by the earlier version of the pipeline. TOMLAB itself
-  wraps a solver (e.g. CPLEX) via its own Matlab interface.
+- **IBM ILOG CPLEX via TOMLAB** -- how the earlier version of the
+  pipeline reached it, through TOMLAB's own Matlab interface.
 
 Neither CPLEX nor TOMLAB is included in this repository; you must install
 and license one yourself and make sure its Matlab interface is on your
