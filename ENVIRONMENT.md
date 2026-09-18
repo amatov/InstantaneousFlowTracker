@@ -18,9 +18,13 @@ this file lists what you need to install and set up yourself.
 
 ## Optimization solver (required for the actual flow-tracking step)
 
-The tracking pipeline formulates particle linking as a min-cost flow
-problem and depends on **one** of the following commercial solvers, each
-requiring its own paid license:
+The three-frame triplet-selection step is a 3-dimensional matching
+problem, which is NP-hard, not a min-cost flow problem: its LP relaxation
+is not integral, so a flow solver settles on a fractional solution
+instead of the integer, all-or-nothing triplet selection this step needs.
+Conversely, an MIP solver (CPLEX by ILOG/IBM, or TOMLAB) can enforce that
+integer solution. The pipeline depends on **one** of the following
+commercial solvers, each requiring its own paid license:
 
 - **IBM ILOG CPLEX** -- used by the current/final version of the pipeline,
   in `IFTA_CPLEX/` (the "Cplex" functions,
