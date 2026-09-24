@@ -4,24 +4,25 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
 
 ## Quick start
 
-1. **Requirements:** Matlab with the Image Processing Toolbox, plus a
-   licensed installation of **IBM ILOG CPLEX** for the optimization step --
-   called directly in the current pipeline, or through TOMLAB. See
-   [ENVIRONMENT.md](ENVIRONMENT.md) for details.
-2. **Which folder to use:** the working pipeline is
-   [`IFTA_CPLEX/`](IFTA_CPLEX/)
-   (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
-   `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are max-flow /
-   min-cost-flow solvers, evaluated during development but not usable for
-   triplet-selection. Linking two frames is bipartite matching,
-   which max-flow solves exactly. Linking three frames at once makes it a
-   3-dimensional matching problem, one of Karp's original NP-complete
-   problems: its LP relaxation is not integral, so a flow solver settles on
-   a fractional solution that splits triplets across conflicting
-   candidates. Conversely, an MIP solver (IBM ILOG CPLEX) can enforce
-   the integer solution required. These solvers are kept for reference;
-   they solve an easier problem than the one my approach requires. See
-   "Repository contents" below.
+**Requirements:** Matlab with the Image Processing Toolbox, plus a
+licensed installation of **IBM ILOG CPLEX** for the optimization step --
+called directly in the current pipeline, or through TOMLAB. See
+[ENVIRONMENT.md](ENVIRONMENT.md) for details.
+
+**Which folder to use:** the working pipeline is
+[`IFTA_CPLEX/`](IFTA_CPLEX/)
+(CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
+`mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are max-flow /
+min-cost-flow solvers, evaluated during development but not usable for
+triplet-selection. Linking two frames is bipartite matching,
+which max-flow solves exactly. Linking three frames at once makes it a
+3-dimensional matching problem, one of Karp's original NP-complete
+problems: its LP relaxation is not integral, so a flow solver settles on
+a fractional solution that splits triplets across conflicting
+candidates. Conversely, an MIP solver (IBM ILOG CPLEX) can enforce
+the integer solution required. These solvers are kept for reference;
+they solve an easier problem than the one my approach requires. See
+"Repository contents" below.
 
 ## Repository contents
 
