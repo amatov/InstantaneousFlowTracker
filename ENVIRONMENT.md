@@ -35,8 +35,7 @@ Matlab path.
 
 The `mincost/`, `mincostCPP/`, `mincostDLL/`, `COSTexe/`, and
 `GoldbergMaxFlow/` folders contain C/C++ implementations of max-flow /
-min-cost solvers used for testing and comparison (not the production
-pipeline -- see README.md "Repository contents"). Precompiled Windows
+min-cost solvers used for testing and comparison. Precompiled Windows
 binaries for these are kept under `binaries/` (mirroring the original
 folder layout) if you don't want to rebuild them; to rebuild from source
 on Windows you'll need Visual C++ (the `.dsp`/`.dsw`/`.sln`/`.vcproj` files
