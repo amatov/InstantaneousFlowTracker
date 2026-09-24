@@ -16,7 +16,7 @@ this file lists what you need to install and set up yourself.
 - No `.mlx`/live-script files; everything is plain `.m` script/function
   files.
 
-## Optimization solver (required for the actual flow-tracking step)
+## Optimization solver
 
 The three-frame triplet-selection step is a 3-dimensional matching
 problem, which is NP-hard, not a min-cost flow problem: its LP relaxation
