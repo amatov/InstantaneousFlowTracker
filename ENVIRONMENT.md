@@ -7,7 +7,7 @@ this file lists what you need to install and set up yourself.
 
 ## Matlab
 
-- The code was developed against Matlab releases from the 2000s-2010s era
+- The code was developed against Matlab releases from the 2000s era
   (exact version not recorded). Functions using `find`, `struct`, `imread`,
   `imshow`, `hist`, `uigetfile`, and `inputdlg` are used throughout, so any
   reasonably recent Matlab with the **Image Processing Toolbox** should be
