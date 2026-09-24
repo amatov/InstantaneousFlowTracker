@@ -47,7 +47,6 @@ work under MinGW/Cygwin/WSL, but this has not been verified on Linux/macOS.
 
 Some `.m` files (e.g. `createDistanceMatrix.m`) call into compiled MEX
 files (`.mexw64`, `.mexglx`). The precompiled MEX binaries under
-`binaries/` are Windows/Linux-specific (32-bit `.mexglx` is for a very old
-Linux/Matlab combination); on a modern platform you will need to recompile
+`binaries/` are Windows/Linux-specific; on a modern platform you will need to recompile
 the corresponding `.c`/`.cpp` source with `mex` yourself.
 
