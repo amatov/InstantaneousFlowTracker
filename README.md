@@ -22,14 +22,6 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
    the integer solution required. These solvers are kept for reference;
    they solve an easier problem than the one my approach requires. See
    "Repository contents" below.
-3. **Try it:** run [`examples/run_demo.m`](examples/run_demo.m) in Matlab.
-   It exercises the data-loading/plotting infrastructure against small
-   synthetic sample data in `examples/sample_data/`. **Read
-   [`examples/README.md`](examples/README.md) first** -- the core tracking
-   function is intentionally not included in this repository (see below),
-   so the demo verifies your setup, not the full algorithm.
-4. Reference figures showing real IFTA output are in
-   [`examples/figures/`](examples/figures/).
 
 ## Repository contents
 
@@ -61,9 +53,6 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
   `.mexw64`, and MSVC build artifacts) for the C/C++ components.
 - **[`media/`](media/)** -- supplementary videos, images, and publication PDFs that
   were previously in the repository root.
-- **`examples/`** -- synthetic sample input data and a demo script for
-  smoke-testing your setup, plus reference figures of real published
-  output. See [`examples/README.md`](examples/README.md).
 - **License:** see [LICENSE](LICENSE) -- research/educational use, with
   separate terms noted for bundled third-party components.
 
