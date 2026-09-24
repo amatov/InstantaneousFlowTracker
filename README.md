@@ -4,12 +4,12 @@ The code I wrote for the software modules of the Instantaneous Flow Tracking Alg
 
 ## Quick start
 
-**Requirements:** Matlab with the Image Processing Toolbox, plus a
+Matlab with the Image Processing Toolbox, plus a
 licensed installation of **IBM ILOG CPLEX** for the optimization step --
 called directly in the current pipeline, or through TOMLAB. See
 [ENVIRONMENT.md](ENVIRONMENT.md) for details.
 
-**Which folder to use:** the working pipeline is
+The working pipeline is
 [`IFTA_CPLEX/`](IFTA_CPLEX/)
 (CPLEX-based, current since 2013). `MaxFlow/`, `GoldbergMaxFlow/`,
 `mincost/`, `mincostCPP/`, `mincostDLL/`, and `COSTexe/` are max-flow /
