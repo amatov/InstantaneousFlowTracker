@@ -1,7 +1,7 @@
 # Environment / Requirements
 
-This is legacy Matlab + C/C++ research code developed and tested primarily
-on Windows between roughly 2003 and 2013. There is no automated build or
+This is legacy Matlab + C/C++ research code developed and tested
+on Windows between 2002 and 2004. There is no automated build or
 dependency-management system (no `requirements.txt` / package manager) --
 this file lists what you need to install and set up yourself.
 
